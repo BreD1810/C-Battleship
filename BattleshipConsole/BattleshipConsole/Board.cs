@@ -7,7 +7,7 @@ namespace BattleshipConsole
     class Board
     {
 
-        private const int BoardSize = 10;
+        public const int BoardSize = 10;
         private char[,] _board = new char[BoardSize, BoardSize];
 
         public Board()
